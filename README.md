@@ -93,6 +93,6 @@ The Pocket Professor is considered complete when it:
 - Powers on and off reliably  
 - Stands upright independently  
 - Responds to spoken IT questions  
-- Provides *relevant hints* within **5 seconds**  
+- Provides relevant hints within **5 seconds**  
 - Detects face-down placement and reacts audibly  
 - Maintains consistent and appropriate responses  
