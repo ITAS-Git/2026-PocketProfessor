@@ -29,7 +29,6 @@ The goal is to provide **hands-free troubleshooting support** while keeping user
 - USB microphone  
 - USB speaker  
 - 18650 rechargeable battery system  
-- Optional Raspberry Pi AI HAT+  
 - 3D-printed housing  
 
 ### Software Requirements
