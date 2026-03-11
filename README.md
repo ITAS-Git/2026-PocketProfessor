@@ -44,7 +44,8 @@ The goal is to provide **hands-free troubleshooting support** while keeping user
 3. Install Python dependencies and the AI model.  
 4. Configure speech-to-text and text-to-speech.  
 5. Place hardware inside the 3D-printed Pocket Professor housing.  
-6. Power on and test interaction.
+6. Glue down Velcro strips to hold the 3D-printed Pocket Professor housing together.
+7. Power on and test interaction.
 
 ##
 
