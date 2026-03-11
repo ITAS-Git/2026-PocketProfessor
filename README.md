@@ -10,6 +10,7 @@ The goal is to provide **hands-free troubleshooting support** while keeping user
 ##
 
 ## Table of Contents
+- [Project Team](#projectteam)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
@@ -18,6 +19,13 @@ The goal is to provide **hands-free troubleshooting support** while keeping user
 - [Repository Structure](#repository-structure)
 - [Credits](#credits)
 - [License](#license)
+
+##
+
+## Project Team
+- Saige Gee
+- Lukas Gairdner
+- Bekah Vanderzee
 
 ##
 
