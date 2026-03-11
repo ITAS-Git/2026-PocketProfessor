@@ -63,7 +63,7 @@ The goal is to provide **hands-free troubleshooting support** while keeping user
 - **Live camera perception** of workspace  
 - **Hands-free voice interaction**  
 - **Hint-based AI responses** (no full answers)  
-- **3D-printed professor housing** that stands upright  
+- **3D-printed professor housing** that sits upright
 - **Orientation detection** with audible reaction  
 - Fully **local, open-source AI processing**
 
@@ -91,7 +91,7 @@ The goal is to provide **hands-free troubleshooting support** while keeping user
 The Pocket Professor is considered complete when it:
 
 - Powers on and off reliably  
-- Stands upright independently  
+- Sits Upright without support
 - Responds to spoken IT questions  
 - Provides relevant hints within **5 seconds**  
 - Detects face-down placement and reacts audibly  
