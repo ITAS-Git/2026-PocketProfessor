@@ -1,7 +1,7 @@
 # Pocket Professor
 
 ## Description
-**Pocket Professor** is a compact (~8-inch) physical Information Technology assistant built using a **Raspberry Pi**, **open-source AI**, and **voice interaction**.
+**Pocket Professor** is a compact (~38-centimeter) physical Information Technology assistant built using a **Raspberry Pi**, **open-source AI**, and **voice interaction**.
 
 The device observes a user’s workspace through a camera, listens to spoken IT-related questions, and responds with **hint-based verbal guidance** rather than full solutions.
 
