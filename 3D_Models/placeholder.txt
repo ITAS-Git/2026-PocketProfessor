@@ -1,0 +1,1 @@
+This folder contains the STL files for the Pocket Professor 3D printed housing.
