@@ -57,6 +57,39 @@ The goal is to provide **hands-free troubleshooting support** while keeping user
 
 ##
 
+## AI Model Setup
+
+The TinyLlama model file is too large to store in this repository.
+
+Download it here:
+https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf
+
+After downloading, create a `models/` folder in the project directory and place the file inside it so the path looks like:
+
+models/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf
+
+##
+
+## Code Setup
+
+### Requirements
+- Python 3.11 or higher
+- USB microphone
+- USB speaker
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   pip install -r requirements.txt
+
+3. Download the AI model (see AI Model Setup section above)
+
+4. Run the program:
+   python pocket_professor_tts-stt.py
+
+##
+
 ## Usage
 1. Turn on the Pocket Professor.  
 2. Ask an **IT-related** question using your voice.  
