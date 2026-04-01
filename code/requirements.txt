@@ -1,0 +1,9 @@
+# Requirements for Pocket Professor
+# Do NOT install as a venv, instead install globally on your version of python 3.11
+# Use "python3.11 -m pip install -r requirements.txt" to install
+
+llama-cpp-python>=0.2.90
+vosk>=0.3.45
+sounddevice>=0.4.6
+Pillow>=10.0.0
+numpy>=1.24.0
