@@ -1,0 +1,26 @@
+# Install all dependencies with:
+#   pip install -r requirements.txt
+#
+# Before running pip install on Raspberry Pi, run this first:
+#   sudo apt-get update
+#   sudo apt-get install -y tesseract-ocr portaudio19-dev espeak ffmpeg python3-pip
+#
+# On Windows, you also need:
+#   - Visual Studio C++ Build Tools (required to compile llama-cpp-python)
+#   - ffmpeg installed via: winget install ffmpeg
+ 
+# AI model runtime loads and runs TinyLlama locally (no internet/API needed)
+llama-cpp-python==0.2.90
+ 
+# Speech-to-text converts microphone audio to text using Whisper tiny model
+openai-whisper==20231117
+ 
+# Audio recording captures audio from the USB microphone
+sounddevice==0.4.6
+ 
+# Audio file handling used by Whisper to read/write .wav files
+scipy==1.11.4
+ 
+# Text-to-speech speaks hints out loud through the speaker (fully offline)
+pyttsx3==2.90
+ 
