@@ -1,5 +1,0 @@
-llama-cpp-python>=0.2.90
-vosk>=0.3.45
-sounddevice>=0.4.6
-Pillow>=10.0.0
-numpy>=1.24.0
