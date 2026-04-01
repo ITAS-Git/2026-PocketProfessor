@@ -33,14 +33,14 @@ The goal is to provide **hands-free troubleshooting support** while keeping user
 
 ### Hardware Requirements
 - Raspberry Pi 5  
-- Raspberry Pi AI Camera (SC1174)  
+- Raspberry Pi Camera 3  
 - USB microphone  
 - USB speaker  
 - 18650 rechargeable battery system  
 - 3D-printed housing  
 
 ### Software Requirements
-- Python  
+- Python 3.11
 - Speech-to-Text library  
 - Text-to-Speech library  
 - Open-source AI model compatible with Raspberry Pi  
@@ -59,14 +59,12 @@ The goal is to provide **hands-free troubleshooting support** while keeping user
 
 ## AI Model Setup
 
-The TinyLlama model file is too large to store in this repository.
+The AI model file is too large to store in this repository.
 
-Download it here:
-https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf
+Download the three zipped files from the code/models folder
 
-After downloading, create a `models/` folder in the project directory and place the file inside it so the path looks like:
+After downloading, create a `models/` folder in the project directory and unzip the files inside it.
 
-models/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf
 
 ##
 
@@ -76,26 +74,28 @@ models/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf
 - Python 3.11 or higher
 - USB microphone
 - USB speaker
+- Pi camera 
 
 ### Installation
 
 1. Clone the repository
-2. Install dependencies:
-   pip install -r requirements.txt
-
+2. Install the dependencies globally, not in any venv
+   ```
+   python3.11 -m pip install -r requirements.txt
+   ```
 3. Download the AI model (see AI Model Setup section above)
 
 4. Run the program:
-   python pocket_professor_tts-stt.py
+   python pocket_professor.py
 
 ##
 
 ## Usage
-1. Turn on the Pocket Professor.  
-2. Ask an **IT-related** question using your voice.  
-3. Show relevant workspace items to the camera if needed.  
-4. Receive a **spoken hint** to guide troubleshooting.  
-5. Place the device face-down to trigger an orientation reaction.
+1. Turn on the Pocket Professor.
+2. State wake-word
+3. Ask an **IT-related** question using your voice.  
+4. Show relevant workspace items to the camera if needed.  
+5. Receive a **spoken hint** to guide troubleshooting.  
 
 ##
 
@@ -104,8 +104,7 @@ models/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf
 - **Live camera perception** of workspace  
 - **Hands-free voice interaction**  
 - **Hint-based AI responses** (no full answers)  
-- **3D-printed professor housing** that sits upright
-- **Orientation detection** with audible reaction  
+- **3D-printed professor housing** that sits upright 
 - Fully **local, open-source AI processing**
 
 ##
@@ -117,7 +116,6 @@ models/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf
 - Raspberry Pi with open-source AI  
 - Camera-based visual understanding  
 - Voice input and output  
-- Orientation detection and reactions  
 - Stand-alone IT hint assistant  
 
 ### Out of Scope
