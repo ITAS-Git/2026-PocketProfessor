@@ -1,0 +1,146 @@
+The Pocket Professor Initial Project Plan
+
+Bekah Vanderzee    
+bekah.vanderzee@itas.ca
+
+Lukas Gairdner
+lukas.gairdner@itas.ca
+
+Saige Gee
+sage.gee@itas.ca
+
+
+User Stories
+User Story 1: Power Management
+As a user, I want the Pocket Professor to turn on and off reliably so that I can control when it is active and available for use.
+Tasks: 	
+Research Raspberry Pi power management options (1-2 days)
+Install power management components (1-2 days)
+Test power on/off cycling (1 day)
+Implement safe shutdown mechanism (1 day)
+
+Resources Needed: 
+Raspberry Pi power adapter or battery pack
+Wiring and connectors
+1-2 team members (Hardware setup)
+
+Dependencies: None (foundational task)
+	
+
+
+
+
+
+User Story 2: Visual Perception Setup
+As a user, I want the Pocket Professor to see my workspace so that it can understand what I am showing it and provide helpful guidance.
+
+Tasks: 	
+Research Raspberry Pi camera compatibility and options (1day)
+Install camera hardware on Pi (1 Day)
+Configure camera drivers and test image capture (2 days)
+Optimize camera for lighting and clarity (1 day)
+Set up live video streaming capability (2 days)
+
+Resources needed:
+Raspberry Pi Camera Module (or USB camera)
+Camera cables and mounting hardware (Mount can be printed)
+1-2 team members (Hardware + Software setup)
+
+Dependencies: User story 1 (Power must be working!)
+
+User Story 3: Physical Housing and Structure
+As a user, I want the Pocket Professor to have a compact and stable physical design so that it fits on my workspace and resembles a professor.
+
+Tasks: 	
+Design 3D model of professor figure in CAD (3-4 days)
+Create head (with camera mount cavity)
+Design body (with Raspberry Pi mounting points and ventilation holes)
+Design arms/legs (optional aesthetic elements like a coffee mug)
+Add cable routing channels internally
+Export design files for 3D printing (STL/OBJ format) (1 day)
+Test print prototype parts (small scale or single component) (1-2 days)
+Check fit, tolerance, and print quality
+Identify and fix design issues
+Print full-scale body components (4-6 days)
+Head piece with camera opening
+Main body shell (may print in multiple sections if large)
+Base/legs for stability
+Mounting brackets/supports for internal hardware
+Post-processing printed parts (2 days)
+Remove support material
+Sand/finish surfaces for smooth appearance
+Paint or apply finishing (optional but recommended)
+Assemble 3D printed components (1-2 days)
+Bond parts together with adhesive or fasteners
+Install internal mounting brackets
+Ensure structural integrity
+Integrate electronics into housing (2 days)
+Mount Raspberry Pi securely
+Install camera in head cavity
+Route cables through internal channels
+Secure microphone and speaker mounts
+Test stability, balance, and stand capability (1 day)
+Verify unit stands upright without support
+Check weight distribution
+Ensure no tipping or wobbling
+
+
+
+
+Resources needed:
+CAD software (FreeCAD, Fusion 360, TinkerCAD, MeshMixer)
+3D printer access (School)
+PLA or PETG filament (500g-1kg estimated)
+Post-processing materials: sandpaper, paint/primer, super glue or epoxy
+Small fasteners (screws, nuts) for assembly
+Cable ties/clips for internal routing
+1-2 team members (CAD designer + print management + assembly)
+
+
+Dependencies: 
+User story 2 (Camera specifications needed for head cavity design)
+3D printer availability
+User Story 1 (Power system finalized for internal routing)
+
+
+
+User Story 4: Voice Input Capability
+As a user, I want to ask the Pocket Professor questions by speaking so that I can interact with it hands-free while working.
+
+Tasks: 	
+Research Raspberry Pi microphone compatibility and options (1 day)
+Select and order USB (or different) microphone (1 day)
+Install microphone hardware (2 days)
+Configure audio input drivers (1 day)
+Set up speech-to-text conversion library (2 days)
+Test voice recognition accuracy (1-2 days)
+
+Resources needed:
+USB microphone or other microphone module
+Audio cables
+Speech-to-text library
+1-2 team members (Hardware + Software)
+
+Dependencies: User story 1 (Power must be working!)
+
+User Story 5: Voice Output Response
+As a user, I want the Pocket Professor to speak its responses so that I can receive guidance without needing to look at a screen.
+
+Tasks: 	
+Research Raspberry Pi speaker/audio output options (1 day)
+Select and order speaker or USB audio module (1 day)
+Install audio output hardware (1 day)
+Configure audio output drivers (1 day)
+Set up text-to-speech system (2 days)
+Test voice quality and volume levels (1 day)
+Optimize audio playback for clarity (1 day)
+
+
+
+Resources needed:
+Small speaker module or USB audio adapter
+Audio cables
+Text-to-speech library (open-source)
+1-2 team members (Hardware + software)
+
+Dependencies: User story 1 (Power must be working!)
