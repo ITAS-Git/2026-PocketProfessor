@@ -1,0 +1,95 @@
+The Pocket Professor Scope Statement
+
+Bekah Vanderzee
+bekah.vanderzee@itas.ca
+
+Lukas Gairdner
+lukas.gairdner@itas.ca
+
+Saige Gee
+sage.gee@itas.ca
+
+
+
+Justification
+
+A lot of Information Technology jobs or hobbies are usually acted out at home, and though there are times you are at an educational institute, those who are either graduated or self-taught usually don’t have immediate access to help. 
+
+Instead of interrupting work by using a phone or keyboard, risking becoming distracted by social media or distractions – the Pocket Professor provides hands-free guidance, allowing the user to remain focused on their task while receiving direction via hints.
+
+Project Deliverables
+
+The Pocket Professor deliverable is a physical model of a miniature Information Technology Professor, capable of observing a user’s workspace and providing hints in response to IT-related questions.
+
+Intermediate Deliverables
+Functional Prototype
+The Pocket Professor can power on and off
+Camera functionality is responsive and operational
+Physical Reaction or feedback are demonstrated 
+(E.G: reacting when being placed face-down)
+
+Integrated Learning Response System
+Pocket Professor provides only hints and not full answers to questions
+Responses are consistent and appropriate based on user input
+
+Final Deliverable
+Fully assembled Pocket Professor Model 
+(Rough Draft shown in Figures 01 & 02)
+Ability to accept user questions and provide hint-based responses
+Functional live-camera
+Figures for Rough Draft of Pocket Professor
+
+Figure 01: Rough Draft of legs and torso of Pocket Professor
+
+
+
+Figure 02: Rough Draft of face and forehead of Pocket Professor
+
+
+
+Acceptance Criteria
+
+Acceptance of the Pocket Professor deliverables will be based on successful demonstration of the following criteria:
+
+The Pocket Professors turns on and off reliably
+When the Pocket Professor is laying face-down, it will react and say something along the lines of “Help me” or complain
+The Pocket Professor responds when asked a question relating to IT
+The Pocket Professor can stand upright on its own (without external support)
+Responses are appropriate and relevant
+Responds to questions with hints within 5 seconds
+Scope
+Inclusions
+The following are within the Scope for this project:
+
+Physical 8-inch model of a professor
+Raspberry Pi with open-source AI integration
+Live camera for visual assessment
+Voice input (hands-free questions)
+Voice output (hint-based responses)
+Orientation detection (face-down reaction)
+Ability to stand independently
+IT-focused hint responses (not full answers)
+
+Exclusions
+The following are OUT OF SCOPE for this project:
+
+Mobile app or web interface for remote access to the Pocket Professor
+Support for non-english languages
+Physical animations 
+Voice Training
+
+Assumptions
+Users ask primarily IT-related questions
+Open-source models suitable for IT knowledge exist and are available
+Voice interaction is primary (may include text fallback)
+Physical reactions don't require complex mechanics
+Team has basic electronics and Python experience
+
+
+Constraints
+Budget: Limited to available/affordable components
+Hardware: Must run on Raspberry Pi (limited processing power)
+Size: 8-10 inches tall (pocket-sized)
+Power: Battery or AC powered with reasonable runtime
+AI: Open-source models only
+Timeline: Around 10 weeks
