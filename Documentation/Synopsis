@@ -1,0 +1,20 @@
+Pocket Professor Synopsis
+Overview:
+Pocket Professor is a Raspberry Pi–based physical AI assistant that helps users troubleshoot IT problems without breaking their focus. Instead of giving direct answers, it provides hint-based voice responses and uses a camera to observe the user's workspace.
+
+Features:
+Voice Input & Output — Users speak to the device and receive spoken hints
+Camera Vision — Allows the assistant to observe the user's workspace
+3D Printed Enclosure — Custom-designed body housing all hardware
+Power Management — Maintains reliable operation during sessions
+
+Components — Raspberry Pi 5, Camera, Microphone, Speaker
+
+Sprint 1 — Planning and Setup | Project Manager: Bekah Vanderzee
+The team set up Git, initialized documentation, and aligned on project scope. Main challenges were learning Git workflows and getting up to speed on the 3D printer and modeling software.
+
+Sprint 2 — Developing Ideas into Reality | Project Manager: Saige Gee
+Active development began with the first two iterations of the code and fitting hardware into the enclosure. The model was scaled up from 8 to 11 inches in height to accommodate the hardware components. Face-down detection was cut from scope due to hardware safety risks, allowing the team to focus on core features.
+
+Sprint 3 — Finishing the Concept | Project Manager: Lukas Gairdner
+The team assembled the final model, painted the enclosure, and resolved audio issues; the text-to-speech was running too fast and the volume was too low, both issues were addressed through software adjustments. The AI model's behavior was also stress-tested, with the device remaining functional throughout.
